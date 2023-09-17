@@ -77,7 +77,7 @@ int main(){
     //double expected = M_PI/3.0;
     //cout << ((getAlpha(Triangle(10,10,10)) == (M_PI/3.0)) ? "PASS" :"FAIL")<< endl;
 
-   // string result = encodeSpaces("Hello there kenobi");
+   // string result = encodeSpaces("Hello there Obi Wan");
    //cout << result << endl; 
 
    // string result2 = removeNonAlpha("jhfs8745&^$ \n");
