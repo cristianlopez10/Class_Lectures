@@ -6,9 +6,15 @@ class Triangle{
 
     public:
 
+    //Getters
     int getSide1(){ return sides[0]; }
     int getSide2(){ return sides[1]; }
     int getSide3(){ return sides[2]; }
+
+    //Setters
+    void setSide1(int s){sides[0]=s;}
+    void setSide1(int s){sides[0]=s;}
+    void setSide1(int s){sides[0]=s;}
 
     Triangle (int a, int b, int c){
 
