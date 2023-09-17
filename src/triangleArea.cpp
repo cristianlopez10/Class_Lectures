@@ -71,7 +71,10 @@ int main(){
 
     cout << "Area of first triangle is: " << getArea(Triangle(10,10,10)) << endl;
     cout << "Area of second triangle is: " << getArea(Triangle(20,20,20))<< endl;
-   
+
+    cout << (isLargerThan(Triangle(20,20,20), Triangle(10,10,10)) ? "PASS": "FAIL") << endl;
+    cout << (isLargerThan(Triangle(10,10,10), Triangle(20,20,20)) ? "FAIL": "PASS") << endl;
+   cout << (isLargerThan(Triangle(10,10,10), Triangle(10,10,10)) ? "FAIL": "PASS") << endl;
    
     //double actual = getAlpha(Triangle (10,10,10));
     //double expected = M_PI/3.0;
@@ -79,7 +82,6 @@ int main(){
 
    // string result = encodeSpaces("Hello there Obi Wan");
    //cout << result << endl; 
-
    // string result2 = removeNonAlpha("jhfs8745&^$ \n");
    // cout << result2 << endl; 
     return 0;
